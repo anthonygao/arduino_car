@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="mycar"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/anthonygao/Documents/Arduino/projects/mycar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/anthonygao/Documents/Arduino/projects/mycar/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anthonygao/Documents/Arduino/projects/mycar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anthonygao/Documents/Arduino/projects/mycar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anthonygao/Documents/Arduino/projects/mycar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/anthonygao/Documents/Arduino/projects/mycar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/anthonygao/Documents/Arduino/projects/mycar/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anthonygao/Documents/Arduino/projects/mycar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anthonygao/Documents/Arduino/projects/mycar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anthonygao/Documents/Arduino/projects/mycar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/anthonygao/Documents/Arduino/projects/mycar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/anthonygao/Documents/Arduino/projects/mycar/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anthonygao/Documents/Arduino/projects/mycar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anthonygao/Documents/Arduino/projects/mycar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anthonygao/Documents/Arduino/projects/mycar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ArduinoTemplate">
+				<Option output="/Users/anthonygao/Documents/Arduino/projects/mycar/cmake-build-debug/ArduinoTemplate" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anthonygao/Documents/Arduino/projects/mycar/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/anthonygao/Documents/Arduino/projects/mycar/../arduino_clion_template/arduino/cores"/>
+					<Add directory="/Users/anthonygao/Documents/Arduino/projects/mycar/../arduino_clion_template/arduino/tools"/>
+					<Add directory="/Users/anthonygao/Documents/Arduino/projects/mycar/../arduino_clion_template/arduino/variants/mega"/>
+					<Add directory="/Users/anthonygao/Documents/Arduino/projects/mycar/../arduino_clion_template/arduino/libraries/Wire/src"/>
+					<Add directory="/Users/anthonygao/Documents/Arduino/projects/mycar/../arduino_clion_template/arduino/libraries/SPI/src"/>
+					<Add directory="/Users/anthonygao/Documents/Arduino/projects/mycar/../arduino_clion_template/arduino/libraries/SoftwareSerial/src"/>
+					<Add directory="/Users/anthonygao/Documents/Arduino/projects/mycar/../arduino_clion_template/arduino/libraries/HID/src"/>
+					<Add directory="/Users/anthonygao/Documents/Arduino/projects/mycar/../arduino_clion_template/arduino/libraries/EFPROM/src"/>
+					<Add directory="/Users/anthonygao/Documents/Arduino/projects/mycar/../../libraries/PinChangeInterrupt/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/anthonygao/Documents/Arduino/projects/mycar/cmake-build-debug/Makefile&quot;  VERBOSE=1 ArduinoTemplate"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anthonygao/Documents/Arduino/projects/mycar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anthonygao/Documents/Arduino/projects/mycar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anthonygao/Documents/Arduino/projects/mycar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ArduinoTemplate/fast">
+				<Option output="/Users/anthonygao/Documents/Arduino/projects/mycar/cmake-build-debug/ArduinoTemplate" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anthonygao/Documents/Arduino/projects/mycar/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/anthonygao/Documents/Arduino/projects/mycar/../arduino_clion_template/arduino/cores"/>
+					<Add directory="/Users/anthonygao/Documents/Arduino/projects/mycar/../arduino_clion_template/arduino/tools"/>
+					<Add directory="/Users/anthonygao/Documents/Arduino/projects/mycar/../arduino_clion_template/arduino/variants/mega"/>
+					<Add directory="/Users/anthonygao/Documents/Arduino/projects/mycar/../arduino_clion_template/arduino/libraries/Wire/src"/>
+					<Add directory="/Users/anthonygao/Documents/Arduino/projects/mycar/../arduino_clion_template/arduino/libraries/SPI/src"/>
+					<Add directory="/Users/anthonygao/Documents/Arduino/projects/mycar/../arduino_clion_template/arduino/libraries/SoftwareSerial/src"/>
+					<Add directory="/Users/anthonygao/Documents/Arduino/projects/mycar/../arduino_clion_template/arduino/libraries/HID/src"/>
+					<Add directory="/Users/anthonygao/Documents/Arduino/projects/mycar/../arduino_clion_template/arduino/libraries/EFPROM/src"/>
+					<Add directory="/Users/anthonygao/Documents/Arduino/projects/mycar/../../libraries/PinChangeInterrupt/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/anthonygao/Documents/Arduino/projects/mycar/cmake-build-debug/Makefile&quot;  VERBOSE=1 ArduinoTemplate/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anthonygao/Documents/Arduino/projects/mycar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anthonygao/Documents/Arduino/projects/mycar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anthonygao/Documents/Arduino/projects/mycar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/anthonygao/Documents/Arduino/projects/mycar/colliedSensor.h">
+			<Option target="ArduinoTemplate"/>
+		</Unit>
+		<Unit filename="/Users/anthonygao/Documents/Arduino/projects/mycar/constant_define.h">
+			<Option target="ArduinoTemplate"/>
+		</Unit>
+		<Unit filename="/Users/anthonygao/Documents/Arduino/projects/mycar/motor.h">
+			<Option target="ArduinoTemplate"/>
+		</Unit>
+		<Unit filename="/Users/anthonygao/Documents/Arduino/projects/mycar/mycar.ino">
+			<Option target="ArduinoTemplate"/>
+		</Unit>
+		<Unit filename="/Users/anthonygao/Documents/Arduino/projects/mycar/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
