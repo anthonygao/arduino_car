@@ -112,7 +112,7 @@ void move_forward(){
 }
 
 bool is_back_done(){
-  if(left_count >40 || right_count > 40){
+  if(left_count >100 || right_count > 100){
     return true;
   }
   return false;

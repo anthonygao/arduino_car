@@ -3,7 +3,8 @@
 #include "constant_define.h"
 #include "colliedSensor.h"
 #include "motor.h"
-
+#include "ultrasensor.h"
+#include <Arduino.h>
 
 byte state = MOVING;
 
@@ -29,6 +30,10 @@ void loop() {
     }
     switch(state){
       case MOVING:
+        if(is_approach_blocks()){
+          state = STOPPED;
+          break;
+        }
         processMove();
         break;
       case TURNING:
